@@ -1,1 +1,1 @@
-# PsAPI-Jest
+API automation using Typescript with JEST Framework
