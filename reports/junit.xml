@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="9" failures="1" errors="0" time="2.401">
+  <testsuite name="Category E2E Tests" errors="0" failures="0" skipped="0" timestamp="2023-08-13T19:20:01" time="0.917" tests="8">
+    <testcase classname="Category E2E Tests Category POST Request" name="Category E2E Tests Category POST Request" time="0.052">
+    </testcase>
+    <testcase classname="Category E2E Tests Category GET by ID" name="Category E2E Tests Category GET by ID" time="0.006">
+    </testcase>
+    <testcase classname="Category E2E Tests Category Update Request" name="Category E2E Tests Category Update Request" time="0.009">
+    </testcase>
+    <testcase classname="Category E2E Tests Category GET by ID" name="Category E2E Tests Category GET by ID" time="0.006">
+    </testcase>
+    <testcase classname="Category E2E Tests Category delete Category" name="Category E2E Tests Category delete Category" time="0.009">
+    </testcase>
+    <testcase classname="Category E2E Tests Delete the Category with non existing ID" name="Category E2E Tests Delete the Category with non existing ID" time="0.007">
+    </testcase>
+    <testcase classname="Category E2E Tests GET the Category after Delete" name="Category E2E Tests GET the Category after Delete" time="0.005">
+    </testcase>
+    <testcase classname="Category E2E Tests Category GET Request" name="Category E2E Tests Category GET Request" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="SubCategory E2E Tests" errors="0" failures="1" skipped="0" timestamp="2023-08-13T19:20:01" time="1.687" tests="1">
+    <testcase classname="SubCategory E2E Tests Category POST Request" name="SubCategory E2E Tests Category POST Request" time="0.065">
+      <failure>Error: expected 200 &quot;OK&quot;, got 201 &quot;Created&quot;
+    at C:\ProfileStudioElectronAPI\PsAPI\SubCategoryE2E.spec.ts:23:14
+    at Generator.next (&lt;anonymous&gt;)
+    at C:\ProfileStudioElectronAPI\PsAPI\SubCategoryE2E.spec.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt;.__awaiter (C:\ProfileStudioElectronAPI\PsAPI\SubCategoryE2E.spec.ts:4:12)
+    at Object.&lt;anonymous&gt; (C:\ProfileStudioElectronAPI\PsAPI\SubCategoryE2E.spec.ts:12:43)
+    at Promise.then.completed (C:\ProfileStudioElectronAPI\node_modules\jest-circus\build\utils.js:300:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\ProfileStudioElectronAPI\node_modules\jest-circus\build\utils.js:233:10)
+    at _callCircusTest (C:\ProfileStudioElectronAPI\node_modules\jest-circus\build\run.js:315:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (C:\ProfileStudioElectronAPI\node_modules\jest-circus\build\run.js:251:3)
+    at _runTestsForDescribeBlock (C:\ProfileStudioElectronAPI\node_modules\jest-circus\build\run.js:125:9)
+    at _runTestsForDescribeBlock (C:\ProfileStudioElectronAPI\node_modules\jest-circus\build\run.js:120:9)
+    at run (C:\ProfileStudioElectronAPI\node_modules\jest-circus\build\run.js:70:3)
+    at runAndTransformResultsToJestFormat (C:\ProfileStudioElectronAPI\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+    at jestAdapter (C:\ProfileStudioElectronAPI\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\ProfileStudioElectronAPI\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\ProfileStudioElectronAPI\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\ProfileStudioElectronAPI\node_modules\jest-runner\build\testWorker.js:106:12)
+----
+    at Test._assertStatus (C:\ProfileStudioElectronAPI\node_modules\supertest\lib\test.js:252:14)
+    at C:\ProfileStudioElectronAPI\node_modules\supertest\lib\test.js:308:13
+    at Test._assertFunction (C:\ProfileStudioElectronAPI\node_modules\supertest\lib\test.js:285:13)
+    at Test.assert (C:\ProfileStudioElectronAPI\node_modules\supertest\lib\test.js:164:23)
+    at localAssert (C:\ProfileStudioElectronAPI\node_modules\supertest\lib\test.js:120:14)
+    at C:\ProfileStudioElectronAPI\node_modules\supertest\lib\test.js:125:7
+    at Test.fn [as callback] (C:\ProfileStudioElectronAPI\node_modules\superagent\src\node\index.js:913:12)
+    at callback (C:\ProfileStudioElectronAPI\node_modules\superagent\src\node\index.js:1166:18)
+    at IncomingMessage.fn (C:\ProfileStudioElectronAPI\node_modules\superagent\src\node\parsers\json.js:19:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
